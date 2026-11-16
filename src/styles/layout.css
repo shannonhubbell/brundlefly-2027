@@ -1,0 +1,5 @@
+.wrapper {
+    max-width: 1400px;
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+}

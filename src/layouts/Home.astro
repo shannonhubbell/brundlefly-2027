@@ -1,0 +1,15 @@
+---
+// src/layouts/Home.astro
+import NavBar from "@/components/NavBar.astro";
+import HomeBanner from "@/components/HomeBanner.astro";
+import { SITE_TITLE, SITE_TAGLINE } from '@/consts';
+
+---
+<main>
+    <NavBar />
+    <HomeBanner
+        title={SITE_TITLE}
+        tagline={SITE_TAGLINE}
+    />
+    <slot/>
+</main>
